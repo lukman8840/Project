@@ -1,0 +1,78 @@
+body {
+    background: #fff;
+    margin: 0;
+}
+.cards {
+    margin: 48px auto;
+    width: max-content;
+    display: grid;
+    grid-template-columns: repeat(4, 100px);
+    gap: 16px;
+}
+.card{
+     height: 100px;
+     background: #111;
+     border: 5px solid #4444;
+     cursor: pointer;
+}
+h1{
+    text-align: center;
+    justify-content: center;
+    padding: 24px;
+    margin: 0px;
+    box-shadow: 0px 0px 10px 5px #fff;
+    color: #333;
+}
+#timer-container {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    text-align: center;
+    border: none;
+    padding: 10px;
+    /* background-color: #f0f0f0; */
+}
+
+#timer {
+    font-size: 24px;
+    font-weight: bold;
+    color: #555;
+}
+
+#reset-button {
+    background-color: #4CAF50; 
+    color: white; 
+    padding: 10px 20px; 
+    font-size: 16px; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: block;
+    margin: auto;
+}
+
+#reset-button:hover {
+    background-color: #45a049; 
+}
+@media screen and (max-width: 768px) {
+    #timer-container {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        border: none;
+        width: 10px;
+    }
+    h1{
+        font-size: 24px;
+    }
+    #timer {
+        font-size: 26px; 
+    }
+
+    #reset-button {
+        font-size: 14px; 
+    }
+}
