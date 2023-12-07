@@ -1,0 +1,138 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #ba4949;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    
+}
+h2 {
+    text-align: center;
+    font-size: 34px;
+    margin-top: 20px;
+    color: #fff;
+}
+/* .container {
+    width: 80%;
+    margin: auto;
+    background-color: red;
+} */
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+#timer{
+    font-size: 40px;
+    width: 500px;
+}
+/* button{
+    width: 50%;
+    box-sizing: border-box;
+    padding: 10px;
+    justify-content: space-between;
+/* } */
+/* .col-4 {
+    width: 50%;
+    text-align: center;
+} */ 
+.timer {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #ca7171;
+    color: #333;
+    font-size: 35px;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 2px 3px 0px #ca7171;
+}
+.btn{
+    display: inline-block;
+    font-size: 18px;
+    border: none;
+    text-decoration: none;
+    padding: 14px;
+    margin: 15px;
+    color: #fff;
+    background-color: none;
+    justify-content: space-between;
+}
+.btn:hover{
+    padding: 7px;
+    background-color: #5f2020;
+    border: none;
+    border-radius: 10px;
+}
+.paragraph{
+    font-size: 80px;
+    color: #fff;
+    padding: 24px;
+}
+button{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.time{
+    width: 100%;
+    margin: 0;
+    margin-bottom: 0px;
+}
+.Start{
+    padding: 14px;
+    width: 40%;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    text-transform: uppercase;
+    color: #ca7171;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 8px;
+    font-size: 24px;
+}
+/* Centering the progress bar and making it smaller */
+.progress-bar-ba4949 {
+    background-color: #ba4949;
+    height: 8px; /* Adjust the height to make it smaller */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.range-container {
+    position: relative;
+}
+
+.range {
+    width: 80%;
+    background-color: #ba4949;
+    appearance: none;
+    height: 20px; /* Adjust the height to make it smaller */
+    margin-top: -1px;
+}
+
+.hr-divider {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 1px;
+    height: 100%;
+    background-color: #fff;
+    border: none;
+}
+.focus, .hash{
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+}
